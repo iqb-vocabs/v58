@@ -118,6 +118,12 @@ n1:u9z
 	skos:notation "1.3.7";
 	skos:broader n1:r7d;
 	skos:prefLabel "mit Formulierungshilfen die eigene Meinung zu lebenspraktischen Fragestellungen äußern, wenn diese Fragen ggf. in Kernpunkten wiederholt werden,"@de.
+n1:g6r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.8";
+	skos:broader n1:r7d;
+	skos:prefLabel "in einem Interview einfache Fragen beantworten und auf einfache Feststellungen reagieren (A2)."@de.
 n1:r7d
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -132,7 +138,8 @@ n1:r7d
 		n1:a4h,
 		n1:g3t,
 		n1:y5c,
-		n1:u9z.
+		n1:u9z,
+		n1:g6r.
 n1:x5q
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -588,7 +595,7 @@ n1:c5b
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
-	dct:title "Bildungsstandards erste Fremdsprache HSA 2004 - Mittlerer Schulabschluss Englisch"@de;
+	dct:title "Bildungsstandards erste Fremdsprache HSA 2004 - Hauptschulabschluss erste Fremdsprache"@de;
 	dct:description "In diesem Kapitel werden die von den Schülerinnen und Schülern zu erwerbenden zentralen Kompetenzen für den Hauptschulabschluss nach Jahrgangsstufe 9 als erstem allgemeinbildenden Abschluss beschrieben. Die Beschreibung erfolgt in enger Anlehnung an den Gemeinsamen europäischen Referenzrahmen (GeR).2) Sofern der GeR seinerseits Niveaustufen der Sprachbeherrschung definiert, werden diese auch hier verwendet. Insofern werden für die Kommunikativen Fertigkeiten (Kapitel 3.1) und die Verfügung über die sprachlichen Mittel (Kapitel 3.2) Niveaustufen des Referenzrahmens angeführt. Für die Interkulturellen Kompetenzen (Kapitel 3.3) und die Methodenkompetenzen (Kapitel 3.4) enthält der GeR nur allgemeine Ausführungen ohne Niveaustufen. Darauf basierend werden hier erfahrungsgestützte Festlegungen vorgenommen. In allen vier vorgenannten Bereichen werden jeweils die mittleren sprachlichen Anforderungen beschrieben, die für Schülerinnen und Schüler zum Erwerb des Hauptschulabschlusses nach Jahrgangsstufe 9 gelten sollen. Soweit nicht anders angegeben, beziehen sich die Kompetenzbeschreibungen sowohl auf die englische als auch auf die französische Sprache."@de;
 	skos:hasTopConcept
 		n1:x6e,
